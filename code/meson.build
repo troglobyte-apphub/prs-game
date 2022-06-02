@@ -7,7 +7,7 @@ code_dep = declare_dependency(
     link_with: code_lib,
     include_directories: '.')
 
-executable('prog',
+executable('prs-game',
     'main.cpp',
     dependencies: [code_dep],
     install: true)
